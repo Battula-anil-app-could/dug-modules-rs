@@ -1,0 +1,17 @@
+[package]
+name = "dmodules"
+version = "0.1.2"
+edition = "2021"
+license = "GPL-3.0-only"
+authors = [ "Buidly Core Team <contact@buidly.com>"]
+description = "Smart contracts modules for Dharithri blockchain"
+documentation = "https://github.com/StakeGold/sc-dmodules-rs/blob/main/README.md"
+repository = "https://github.com/StakeGold/sc-dmodules-rs"
+keywords = ["dharithri", "wasm", "webassembly", "blockchain", "contract"]
+categories = ["no-std", "wasm", "cryptography::cryptocurrencies"]
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.elrond-wasm]
+version = "0.38.0"
